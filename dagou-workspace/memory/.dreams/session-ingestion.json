@@ -1,0 +1,44 @@
+{
+  "version": 3,
+  "files": {
+    "dagou:sessions/2243cf20-2fc3-4b8a-8c0b-18dacaff4d40.jsonl": {
+      "mtimeMs": 1776408068560,
+      "size": 209955,
+      "contentHash": "b0785ceaa20f51722f977c0f2f58caa59b73fb358b8aa2e18f8d145b3ad27873",
+      "lineCount": 9,
+      "lastContentLine": 9
+    },
+    "dagou:sessions/849ef113-4378-4f69-bf91-4bb8218b2b79.jsonl": {
+      "mtimeMs": 1776389030447,
+      "size": 16347,
+      "contentHash": "5beb2355c706f6e076561943138207cd6b553e6dc067fc170f7cea81a90f02af",
+      "lineCount": 10,
+      "lastContentLine": 10
+    }
+  },
+  "seenMessages": {
+    "dagou:2243cf20-2fc3-4b8a-8c0b-18dacaff4d40": [
+      "d6e2e4e338f6f0428ac24d03439abc744f6cc8f5",
+      "f7bc20a29a7fe66fd3e8c210a97f8c5f8e53ede2",
+      "e130a7bc9ae97904acdca46c1fd2fa06417c737c",
+      "b70e5a5a78092ab8d6977b87f2f9cb168d346fd0",
+      "29a3d73b43a29d98d1c9a6a6d723b077d9c6f6f4",
+      "e7b10bec97a20be828ffa9918a6880d91e53696e",
+      "f0d2d0d36cd111a453a9d7cfa8436ec88e9dee91",
+      "ffbcca0e5dbdbdd71726d6ed3c54ef207bdbb004",
+      "c20ef28a79bc9f69b41e42491df0c46b934d862f"
+    ],
+    "dagou:849ef113-4378-4f69-bf91-4bb8218b2b79": [
+      "a3ee2cf000c2e0d7edd0baddd513cd58a8fd2421",
+      "94c2a8b4ae01cf21a8ae1240faa2b0c6a05e42c5",
+      "c5165502125820285cb9f252a45de147c2697a15",
+      "ff9189847310d590178974a556700c53476d5883",
+      "038cbb2935a89e33fd61f3974ced18a84bd95408",
+      "38850392b062d03867d23356c921640e9e12791c",
+      "de3a6590efaa415b1c12dbcf05e398f4317642c3",
+      "d40db8f6c721f9e945e90b1c80b9605e916c3c57",
+      "016d74bf28932edb6a68fe663f980cf4bfa7a15b",
+      "be5e9aa1a4ee1bea92201f5a31fa3cb4c52688ec"
+    ]
+  }
+}

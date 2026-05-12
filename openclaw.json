@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.12",
+    "lastTouchedAt": "2026-05-11T03:47:43.403Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-05-11T03:47:42.954Z",
+    "lastRunVersion": "2026.4.12",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "defaultProfile": "openclaw"
+  },
+  "auth": {
+    "profiles": {
+      "minimax-portal:default": {
+        "provider": "minimax-portal",
+        "mode": "oauth"
+      },
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "minimax-portal": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "models": [],
+        "api": "anthropic-messages",
+        "authHeader": true
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "model": {
+        "primary": "minimax-portal/MiniMax-M2.7",
+        "fallbacks": [
+          "google/gemini-3.1-flash-lite"
+        ]
+      },
+      "models": {
+        "minimax-portal/MiniMax-M2.7": {
+          "alias": "minimax-m2.7"
+        },
+        "google/gemini-3.1-pro-preview": {},
+        "google/gemini-3.1-flash-lite": {
+          "alias": "gemini-flash-lite"
+        }
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard",
+        "memoryFlush": {
+          "enabled": true,
+          "softThresholdTokens": 40000
+        }
+      },
+      "thinkingDefault": "high",
+      "subagents": {
+        "maxConcurrent": 2,
+        "maxSpawnDepth": 2,
+        "maxChildrenPerAgent": 3
+      },
+      "memorySearch": {
+        "enabled": true
+      },
+      "maxConcurrent": 5
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "小埋",
+        "workspace": "/root/.openclaw/workspace",
+        "tools": {
+          "alsoAllow": [
+            "feishu_bitable_app",
+            "feishu_bitable_app_table",
+            "feishu_bitable_app_table_field",
+            "feishu_bitable_app_table_record",
+            "feishu_bitable_app_table_view",
+            "feishu_calendar_calendar",
+            "feishu_calendar_event",
+            "feishu_calendar_event_attendee",
+            "feishu_calendar_freebusy",
+            "feishu_chat",
+            "feishu_chat_members",
+            "feishu_create_doc",
+            "feishu_doc_comments",
+            "feishu_doc_media",
+            "feishu_drive_file",
+            "feishu_fetch_doc",
+            "feishu_get_user",
+            "feishu_im_bot_image",
+            "feishu_im_user_fetch_resource",
+            "feishu_im_user_get_messages",
+            "feishu_im_user_get_thread_messages",
+            "feishu_im_user_message",
+            "feishu_im_user_search_messages",
+            "feishu_oauth",
+            "feishu_oauth_batch_auth",
+            "feishu_search_doc_wiki",
+            "feishu_search_user",
+            "feishu_sheet",
+            "feishu_task_comment",
+            "feishu_task_subtask",
+            "feishu_task_task",
+            "feishu_task_tasklist",
+            "feishu_update_doc",
+            "feishu_wiki_space",
+            "feishu_wiki_space_node"
+          ]
+        }
+      },
+      {
+        "id": "wangfugui",
+        "name": "王富贵",
+        "workspace": "/root/.openclaw/workspace-wangfugui",
+        "model": "minimax-portal/MiniMax-M2.7",
+        "identity": {
+          "name": "王富贵",
+          "emoji": "💰"
+        },
+        "tools": {
+          "alsoAllow": [
+            "feishu_bitable_app",
+            "feishu_bitable_app_table",
+            "feishu_bitable_app_table_field",
+            "feishu_bitable_app_table_record",
+            "feishu_bitable_app_table_view",
+            "feishu_calendar_calendar",
+            "feishu_calendar_event",
+            "feishu_calendar_event_attendee",
+            "feishu_calendar_freebusy",
+            "feishu_chat",
+            "feishu_chat_members",
+            "feishu_create_doc",
+            "feishu_doc_comments",
+            "feishu_doc_media",
+            "feishu_drive_file",
+            "feishu_fetch_doc",
+            "feishu_get_user",
+            "feishu_im_bot_image",
+            "feishu_im_user_fetch_resource",
+            "feishu_im_user_get_messages",
+            "feishu_im_user_get_thread_messages",
+            "feishu_im_user_message",
+            "feishu_im_user_search_messages",
+            "feishu_oauth",
+            "feishu_oauth_batch_auth",
+            "feishu_search_doc_wiki",
+            "feishu_search_user",
+            "feishu_sheet",
+            "feishu_task_comment",
+            "feishu_task_subtask",
+            "feishu_task_task",
+            "feishu_task_tasklist",
+            "feishu_update_doc",
+            "feishu_wiki_space",
+            "feishu_wiki_space_node"
+          ]
+        }
+      },
+      {
+        "id": "levi",
+        "name": "利威尔",
+        "workspace": "/root/.openclaw/workspace-levi",
+        "identity": {
+          "name": "利威尔",
+          "emoji": "🔧"
+        },
+        "name": "利威尔",
+        "workspace": "/root/.openclaw/workspace-levi",
+        "identity": {
+          "name": "利威尔",
+          "emoji": "🔧"
+        },
+        "tools": {
+          "alsoAllow": [
+            "feishu_bitable_app",
+            "feishu_bitable_app_table",
+            "feishu_bitable_app_table_field",
+            "feishu_bitable_app_table_record",
+            "feishu_bitable_app_table_view",
+            "feishu_calendar_calendar",
+            "feishu_calendar_event",
+            "feishu_calendar_event_attendee",
+            "feishu_calendar_freebusy",
+            "feishu_chat",
+            "feishu_chat_members",
+            "feishu_create_doc",
+            "feishu_doc_comments",
+            "feishu_doc_media",
+            "feishu_drive_file",
+            "feishu_fetch_doc",
+            "feishu_get_user",
+            "feishu_im_bot_image",
+            "feishu_im_user_fetch_resource",
+            "feishu_im_user_get_messages",
+            "feishu_im_user_get_thread_messages",
+            "feishu_im_user_message",
+            "feishu_im_user_search_messages",
+            "feishu_oauth",
+            "feishu_oauth_batch_auth",
+            "feishu_search_doc_wiki",
+            "feishu_search_user",
+            "feishu_sheet",
+            "feishu_task_comment",
+            "feishu_task_subtask",
+            "feishu_task_task",
+            "feishu_task_tasklist",
+            "feishu_update_doc",
+            "feishu_wiki_space",
+            "feishu_wiki_space_node"
+          ]
+        }
+      },
+      {
+        "id": "dagou",
+        "name": "大狗",
+        "workspace": "/root/.openclaw/workspace-dagou",
+        "identity": {
+          "name": "大狗",
+          "emoji": "🐕"
+        },
+        "tools": {
+          "alsoAllow": [
+            "feishu_bitable_app",
+            "feishu_bitable_app_table",
+            "feishu_bitable_app_table_field",
+            "feishu_bitable_app_table_record",
+            "feishu_bitable_app_table_view",
+            "feishu_calendar_calendar",
+            "feishu_calendar_event",
+            "feishu_calendar_event_attendee",
+            "feishu_calendar_freebusy",
+            "feishu_chat",
+            "feishu_chat_members",
+            "feishu_create_doc",
+            "feishu_doc_comments",
+            "feishu_doc_media",
+            "feishu_drive_file",
+            "feishu_fetch_doc",
+            "feishu_get_user",
+            "feishu_im_bot_image",
+            "feishu_im_user_fetch_resource",
+            "feishu_im_user_get_messages",
+            "feishu_im_user_get_thread_messages",
+            "feishu_im_user_message",
+            "feishu_im_user_search_messages",
+            "feishu_oauth",
+            "feishu_oauth_batch_auth",
+            "feishu_search_doc_wiki",
+            "feishu_search_user",
+            "feishu_sheet",
+            "feishu_task_comment",
+            "feishu_task_subtask",
+            "feishu_task_task",
+            "feishu_task_tasklist",
+            "feishu_update_doc",
+            "feishu_wiki_space",
+            "feishu_wiki_space_node"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "duckduckgo"
+      }
+    },
+    "exec": {
+      "ask": "off",
+      "security": "full"
+    },
+    "sessions": {
+      "visibility": "all"
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "main"
+      }
+    },
+    {
+      "agentId": "wangfugui",
+      "match": {
+        "channel": "feishu",
+        "accountId": "wangfugui"
+      }
+    },
+    {
+      "agentId": "levi",
+      "match": {
+        "channel": "feishu",
+        "accountId": "levi"
+      }
+    },
+    {
+      "agentId": "dagou",
+      "match": {
+        "channel": "feishu",
+        "accountId": "dagou"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "all"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-account-channel-peer"
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "enabled": true,
+      "allowedOrigins": [
+        "https://openclaw.bearsourcing.com"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "fb41b3761e24fc7b4d64b1e8a7a9922861d330cd8338cd09"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "plugins": {
+    "load": {
+      "paths": [
+        "/root/.openclaw/lossless-claw-enhanced"
+      ]
+    },
+    "slots": {
+      "contextEngine": "lossless-claw"
+    },
+    "entries": {
+      "duckduckgo": {
+        "enabled": true,
+        "config": {}
+      },
+      "minimax": {
+        "enabled": true,
+        "config": {}
+      },
+      "marxbiotech-git-tools": {
+        "enabled": true,
+        "config": {}
+      },
+      "lossless-claw": {
+        "enabled": true,
+        "config": {
+          "freshTailCount": 32,
+          "contextThreshold": 0.75,
+          "incrementalMaxDepth": -1,
+          "summaryModel": "minimax-portal/MiniMax-M2.7",
+          "ignoreSessionPatterns": [
+            "agent:*:cron:**",
+            "agent:*:subagent:**"
+          ]
+        }
+      },
+      "browser": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": false
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true,
+            "frequency": "0 3 * * *",
+            "timezone": "Asia/Shanghai",
+            "storage": {
+              "mode": "separate"
+            }
+          }
+        }
+      },
+      "openclaw-lark": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "marxbiotech-git-tools": {
+        "source": "clawhub",
+        "spec": "clawhub:marxbiotech-git-tools@1.0.0",
+        "installPath": "/root/.openclaw/extensions/marxbiotech-git-tools",
+        "version": "1.0.0",
+        "integrity": "sha256-CVagfF+vg4q9lvDlIAX4//U5LSuJDKnXNg0m8qGcBgo=",
+        "resolvedAt": "2026-03-29T09:21:14.054Z",
+        "installedAt": "2026-03-29T09:21:14.055Z",
+        "clawhubUrl": "https://clawhub.ai",
+        "clawhubPackage": "marxbiotech-git-tools",
+        "clawhubFamily": "code-plugin",
+        "clawhubChannel": "community"
+      },
+      "lossless-claw": {
+        "source": "path",
+        "sourcePath": "/root/.openclaw/lossless-claw-enhanced",
+        "installPath": "/root/.openclaw/lossless-claw-enhanced",
+        "version": "0.5.2",
+        "installedAt": "2026-04-01T14:06:58.087Z"
+      },
+      "openclaw-lark": {
+        "source": "archive",
+        "sourcePath": "/tmp/openclaw-lark-kbcZKZ/larksuite-openclaw-lark-2026.4.7.tgz",
+        "installPath": "/root/.openclaw/extensions/openclaw-lark",
+        "version": "2026.4.7",
+        "installedAt": "2026-04-15T09:27:27.949Z"
+      }
+    },
+    "allow": [
+      "browser",
+      "minimax",
+      "lossless-claw",
+      "marxbiotech-git-tools",
+      "feishu",
+      "discord",
+      "duckduckgo",
+      "memory-core",
+      "openclaw-lark",
+      "google"
+    ]
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a94cdceaac78dcc6",
+      "appSecret": {
+        "source": "file",
+        "provider": "lark-secrets",
+        "id": "/lark/appSecret"
+      },
+      "domain": "feishu",
+      "connectionMode": "websocket",
+      "reactionNotifications": "own",
+      "typingIndicator": true,
+      "resolveSenderNames": true,
+      "requireMention": true,
+      "groups": {
+        "*": {
+          "enabled": true
+        }
+      },
+      "streaming": true,
+      "footer": {
+        "elapsed": true,
+        "status": true
+      },
+      "accounts": {
+        "main": {
+          "appId": "cli_a94cdceaac78dcc6",
+          "appSecret": "UZDnKvp4HYZwnFHIIQziBg3vXGqsje5N"
+        },
+        "wangfugui": {
+          "appId": "cli_a94c22e054b85cb6",
+          "appSecret": "j1jy7J6MtekZxNJU5klTlfgSQn3ajGXL",
+          "groups": {
+            "oc_a57121d1af64f0b9f45adf53c11a1b5f": {
+              "enabled": true,
+              "senderPolicy": "open"
+            }
+          }
+        },
+        "levi": {
+          "appId": "cli_a942060f5138dcc0",
+          "appSecret": "i5BcDQHHy5H01xADG0SJMbezwRezUoIF"
+        },
+        "dagou": {
+          "appId": "cli_a96a167c82e3dbd3",
+          "appSecret": "js20ASfowppAI1r0RffiEhReQvKVgINJ"
+        },
+        "default": {
+          "webhookPath": "/feishu/events",
+          "dmPolicy": "pairing",
+          "groupPolicy": "allowlist"
+        }
+      },
+      "threadSession": true,
+      "toolUseDisplay": {
+        "showFullPaths": true
+      }
+    },
+    "discord": {
+      "enabled": true,
+      "token": "[REDACTED_DISCORD_TOKEN]",
+      "groupPolicy": "allowlist",
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "1490366325229355059"
+      ],
+      "defaultTo": "maochang",
+      "guilds": {
+        "1490905689755877466": {}
+      },
+      "streaming": {
+        "mode": "block",
+        "block": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "secrets": {
+    "providers": {
+      "lark-secrets": {
+        "source": "file",
+        "path": "~/.openclaw/credentials/lark.secrets.json"
+      }
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  }
+}

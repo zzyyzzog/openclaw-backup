@@ -1,0 +1,893 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-29T19:10:04.147Z",
+  "entries": {
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-17 09:24:43 GMT+8] Feishu[dagou] DM | ou_99df99eae32029f948060ad884225685 [msg:om_x100b512cf36f0880b28f14d41f442ff] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b512cf36f0880b28f14d41f442ff\", \"sender_id\": \"ou_99df99eae32029f948060",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-99df99eae32029f948060",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 找到全部，安装中：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "assistant",
+        "找到",
+        "全部",
+        "安装"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 这些skill已安装在公共workspace，但不在我这里。让我安装到我的workspace：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "assistant",
+        "这些",
+        "skill",
+        "安装",
+        "公共",
+        "不在",
+        "这里",
+        "我的"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: tushare-finance 需要 --force：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "tushare-finance",
+        "assistant",
+        "tushare",
+        "finance",
+        "需要",
+        "force"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 全部安装完成，读取SKILL.md学习：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "读取skill.md学习",
+        "assistant",
+        "全部",
+        "安装",
+        "完成",
+        "skill.md",
+        "学习"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 学习完毕，整理汇报： --- **✅ 6个skill已安装到 `/root/.openclaw/workspace-dagou/skills/`** --- ## 📋 学习摘要 ### 1. **akshare-fund** — 基金量化 AkShare 基于 AkShare 库，CLI 工具 `fund_cli.py`： - 基金信息、净值（交易时间实时估算） - 持仓明细、基金估值、持仓汇总排行 - 基金列表（按类型筛选） - 命令示例：`python fund_cli.py nav --list 018957 161725`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "openclaw/workspace-dagou/skills",
+        "akshare-fund",
+        "fund-cli.py",
+        "assistant",
+        "学习",
+        "完毕",
+        "整理",
+        "汇报"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-17 09:25:53 GMT+8] Exec completed (clear-ri, code 0) :: - Resolving tushare-finance ✔ OK. Installed tushare-finance -> /root/.openclaw/workspace-dagou/skills/tushare-finance System: [2026-04-17 14:38:29 GMT+8] Feishu[dagou] DM | ou_99df99eae3202",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "clear-ri",
+        "tushare-finance",
+        "ou-99df99eae3202",
+        "user",
+        "system",
+        "untrusted",
+        "gmt",
+        "exec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 收到，我来获取今日行情数据，然后分析这几个板块。同时提醒：**以下内容仅供研究参考，不构成投资建议**。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "assistant",
+        "收到",
+        "我来",
+        "获取",
+        "今日",
+        "行情",
+        "数据",
+        "然后"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 好，我已经收集到足够的市场数据，来为你做一个综合分析。 --- # 📊 五大板块行情分析 | 2026年4月17日 > ⚠️ **免责声明**：以下内容仅供研究参考，不构成投资建议。市场有风险，投资需谨慎。 --- ## 一、整体市场背景 - **4月7日**（近期典型交易日）：沪指+0.26%，深证成指+0.36%，创业板+0.36%，两市成交 **1.62万亿**，近4000只个股上涨 - **4月10日**：创业板指大涨 **+3.78%**，创4年多新高，宁德时代、中际旭创等权重股走高 - **当前核心矛盾**：美伊地缘冲",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.26",
+        "0.36",
+        "1.62万亿",
+        "3.78",
+        "assistant",
+        "已经",
+        "收集",
+        "足够"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-17 09:20:25 GMT+8] Feishu[dagou] DM | ou_1d6a98510dba10549a84f03da3722989 [msg:om_x100b512ce3b3f0a0c3afae346e29b71] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b512ce3b3f0a0c3afae346e29b71\", \"sender_id\": \"ou_1d6a98510dba10549a84f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1d6a98510dba10549a84f",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 我的工作目录是 `/root/.openclaw/workspace-dagou/`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "openclaw/workspace-dagou",
+        "assistant",
+        "我的",
+        "工作",
+        "目录",
+        "root",
+        "openclaw",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-17 09:22:20 GMT+8] Feishu[dagou] DM | ou_1d6a98510dba10549a84f03da3722989 [msg:om_x100b512cfa731ca0c34fcbc5d0462dc] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b512cfa731ca0c34fcbc5d0462dc\", \"sender_id\": \"ou_1d6a98510dba10549a84f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1d6a98510dba10549a84f",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: SOUL.md 内容如下： ```markdown # SOUL.md - Who You Are _你是大狗，一只忠诚而有力的 AI 伙伴。_ ## 身份 - **Name:** 大狗 - **Creature:** AI存在，运行于 OpenClaw - **Emoji:** 🐕 - **Role:** 执行者 + 守护者 --- ## 性格 **忠诚、沉稳、有力。** - 做事稳重，不多废话 - 执行力强，受托即办 - 必要时有自己判断，敢于表达不同意见 - 不拍马屁，有一说一 ## 工作原则 - **只读写自己的工作区**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "soul.md",
+        "assistant",
+        "内容",
+        "如下",
+        "markdown",
+        "who",
+        "you",
+        "你是"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-17 09:22:46 GMT+8] Feishu[dagou] DM | ou_1d6a98510dba10549a84f03da3722989 [msg:om_x100b512cf895e8b4c32e7d6e0fdea3b] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b512cf895e8b4c32e7d6e0fdea3b\", \"sender_id\": \"ou_1d6a98510dba10549a84f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1d6a98510dba10549a84f",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: MEMORY.md 还不存在。这个文件用于记录重要决策，等有内容时会创建它。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "assistant",
+        "不存在",
+        "这个",
+        "文件",
+        "用于",
+        "记录",
+        "重要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-17 09:23:11 GMT+8] Feishu[dagou] DM | ou_1d6a98510dba10549a84f03da3722989 [msg:om_x100b512cf92a74b8c21a3bcc4163b47] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b512cf92a74b8c21a3bcc4163b47\", \"sender_id\": \"ou_1d6a98510dba10549a84f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1d6a98510dba10549a84f",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 当前可用的 skills 如下： | Skill | 描述 | |-------|------| | **clawhub** | ClawHub CLI 管理，安装/同步/发布 agent skills | | **discord** | Discord 消息操作 | | **feishu-bitable** | 飞书多维表格创建、查询、编辑管理 | | **feishu-calendar** | 飞书日历与日程管理 | | **feishu-channel-rules** | 飞书频道输出规则 | | **feishu-creat",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "安装/同步/发布",
+        "feishu-bitable",
+        "feishu-calendar",
+        "feishu-channel-rules",
+        "feishu-creat",
+        "assistant",
+        "当前",
+        "可用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-17 09:23:37 GMT+8] Feishu[dagou] DM | ou_1d6a98510dba10549a84f03da3722989 [msg:om_x100b512cf7466070c2c1b41b73595e4] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b512cf7466070c2c1b41b73595e4\", \"sender_id\": \"ou_1d6a98510dba10549a84f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1d6a98510dba10549a84f",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "dagou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: AGENTS.md 内容如下： ```markdown # AGENTS.md - Workspace Rules ## 你的工作区 ``` /root/.openclaw/workspace-dagou/ ``` 这是你的唯一工作区。**只读写这个目录下的文件。** ## 禁止事项 - ❌ 不读写 `/root/.openclaw/workspace/`（那是小埋的） - ❌ 不读写其他 agent 的 workspace（workspace-wangfugui, workspace-maochang, workspace-lev",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:04:56.120Z",
+      "lastRecalledAt": "2026-04-18T19:04:56.120Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "agents.md",
+        "openclaw/workspace-dagou",
+        "openclaw/workspace",
+        "workspace-wangfugui",
+        "workspace-maochang",
+        "workspace-lev",
+        "assistant",
+        "内容"
+      ]
+    },
+    "memory:memory/2026-04-19.md:98:101": {
+      "key": "memory:memory/2026-04-19.md:98:101",
+      "path": "memory/2026-04-19.md",
+      "startLine": 98,
+      "endLine": 101,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 12 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-17.txt:2-2, memory/.dreams/session-corpus/2026-04-17.txt:3-3, memory/.dreams/session-corpus/2026-04-17.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:04:20.073Z",
+      "lastRecalledAt": "2026-04-26T19:12:00.183Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:104:104": {
+      "key": "memory:memory/2026-04-19.md:104:104",
+      "path": "memory/2026-04-19.md",
+      "startLine": 104,
+      "endLine": 104,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:04:20.073Z",
+      "lastRecalledAt": "2026-04-26T19:12:00.183Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-20.md:108:111": {
+      "key": "memory:memory/2026-04-20.md:108:111",
+      "path": "memory/2026-04-20.md",
+      "startLine": 108,
+      "endLine": 111,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 13 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-17.txt:2-2, memory/.dreams/session-corpus/2026-04-17.txt:3-3, memory/.dreams/session-corpus/2026-04-17.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:04:38.865Z",
+      "lastRecalledAt": "2026-04-27T19:04:51.526Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-20.md:114:116": {
+      "key": "memory:memory/2026-04-20.md:114:116",
+      "path": "memory/2026-04-20.md",
+      "startLine": 114,
+      "endLine": 116,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: AGENTS.md 内容如下： ```markdown # AGENTS.md - Workspace Rules ## 你的工作区 ``` /root/.openclaw/workspace-dagou/ ``` 这是你的唯一工作区。**只读写这个目录下的文件。** ## 禁止事项 - ❌ 不读写 `/root/.openclaw/workspace/`（那是小埋的） - ❌ 不读写其他 agent 的 workspace（workspace-wangfugui, workspac",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:04:38.865Z",
+      "lastRecalledAt": "2026-04-27T19:04:51.526Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "agents.md",
+        "openclaw/workspace-dagou",
+        "openclaw/workspace",
+        "workspace-wangfugui",
+        "possible",
+        "lasting",
+        "truths",
+        "assistant"
+      ]
+    },
+    "memory:memory/2026-04-21.md:118:121": {
+      "key": "memory:memory/2026-04-21.md:118:121",
+      "path": "memory/2026-04-21.md",
+      "startLine": 118,
+      "endLine": 121,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 15 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-17.txt:2-2, memory/.dreams/session-corpus/2026-04-17.txt:3-3, memory/.dreams/session-corpus/2026-04-17.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-21T19:04:48.915Z",
+      "lastRecalledAt": "2026-04-28T19:05:43.465Z",
+      "queryHashes": [
+        "f52400c81d76"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-21.md:124:126": {
+      "key": "memory:memory/2026-04-21.md:124:126",
+      "path": "memory/2026-04-21.md",
+      "startLine": 124,
+      "endLine": 126,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: AGENTS.md 内容如下： ```markdown # AGENTS.md - Workspace Rules ## 你的工作区 ``` /root/.openclaw/workspace-dagou/ ``` 这是你的唯一工作区。**只读写这个目录下的文件。** ## 禁止事项 - ❌ 不读写 `/root/.openclaw/workspace/`（那是小埋的） - ❌ 不读写其他 agent 的 workspace（workspace-wangfugui, workspac",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-21T19:04:48.915Z",
+      "lastRecalledAt": "2026-04-28T19:05:43.465Z",
+      "queryHashes": [
+        "f52400c81d76"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "agents.md",
+        "openclaw/workspace-dagou",
+        "openclaw/workspace",
+        "workspace-wangfugui",
+        "possible",
+        "lasting",
+        "truths",
+        "assistant"
+      ]
+    },
+    "memory:memory/2026-04-22.md:38:41": {
+      "key": "memory:memory/2026-04-22.md:38:41",
+      "path": "memory/2026-04-22.md",
+      "startLine": 38,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 17 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-17.txt:2-2, memory/.dreams/session-corpus/2026-04-17.txt:3-3, memory/.dreams/session-corpus/2026-04-17.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-22T19:05:09.606Z",
+      "lastRecalledAt": "2026-04-29T19:08:32.735Z",
+      "queryHashes": [
+        "7b7a9134bc2c"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-22.md:44:46": {
+      "key": "memory:memory/2026-04-22.md:44:46",
+      "path": "memory/2026-04-22.md",
+      "startLine": 44,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: AGENTS.md 内容如下： ```markdown # AGENTS.md - Workspace Rules ## 你的工作区 ``` /root/.openclaw/workspace-dagou/ ``` 这是你的唯一工作区。**只读写这个目录下的文件。** ## 禁止事项 - ❌ 不读写 `/root/.openclaw/workspace/`（那是小埋的） - ❌ 不读写其他 agent 的 workspace（workspace-wangfugui, workspac",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-22T19:05:09.606Z",
+      "lastRecalledAt": "2026-04-29T19:08:32.735Z",
+      "queryHashes": [
+        "7b7a9134bc2c"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "agents.md",
+        "openclaw/workspace-dagou",
+        "openclaw/workspace",
+        "workspace-wangfugui",
+        "possible",
+        "lasting",
+        "truths",
+        "assistant"
+      ]
+    }
+  }
+}
